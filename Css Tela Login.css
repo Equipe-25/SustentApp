@@ -1,0 +1,116 @@
+section{
+	width: 360px;
+	height: 640px;
+	background: rgb(248,248,255);
+	border: 2px solid #ccc;
+  	border-radius: 50px;
+  	box-sizing: border-box;
+
+  	position: absolute;
+  	left: 40%;
+}
+
+h1{
+	position: absolute;
+	width: 256px;
+	height: 44px;
+	left: 65px;
+	top: 312px;
+
+	font-family: Sansita One;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+
+	color: #8CB369;
+
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#Lg{
+	position: absolute;
+	width: 360px;
+	height: 370px;
+	left: 0px;
+	top: 12px;
+}
+
+#senha{
+	position: absolute;
+	width: 242px;
+	height: 47px;
+	left: 59px;
+	top: 455px;
+
+/* VERDE PISCINA */
+
+	background: #64DFDF;
+	border-radius: 25px;
+}
+
+
+#login{
+	position: absolute;
+	width: 242px;
+	height: 47px;
+	left: 59px;
+	top: 382px;
+
+/* VERDE MAR */
+
+	background: #72EFDD;
+	border-radius: 25px;
+}
+#Ent{
+	position: absolute;
+	width: 156px;
+	height: 35px;
+	left: 59px;
+	top: 528px;
+
+/* AZUL PISCINA */
+
+	background: #4EA8DE;
+	border-radius: 10px;
+}
+
+#enter{
+	position: relative;
+	top: 16%;
+	left: 60%;
+}
+
+#cadastro{
+	position: absolute;
+	width: 73px;
+	height: 16px;
+	left: 263px;
+	top: 575px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+
+	color: #000000;
+}
+#esqueceu{
+	position: absolute;
+	width: 115px;
+	height: 14px;
+	left: 229px;
+	top: 611px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+/* identical to box height */
+
+
+	color: #000000;
+}
