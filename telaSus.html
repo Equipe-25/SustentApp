@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sustentapp</title>
+	<link rel="stylesheet" type="text/css" href="TelaSus.css">
+</head>
+<body>
+	<div class = "divisao">
+					<H1 class='cadastro'>Cadastro</H1>
+			<form id='form1'> 
+
+				<input type="text" name="Nome completo" placeholder="Nome completo" required><br/><br/>
+		        <input type="email" name="E-mail" placeholder="Insira um email válido" required><br/><br/>
+		        <input type="tel"  name="Telefone" class="form-control phone-ddd-mask" placeholder="Telefone"><br/>
+		        <input type="text" name="Cep" placeholder="CEP" class="form-control cpf-mask"><br/><br/>
+		       
+		    	<div id='Endereço'>
+		    	 	<input type="text" name="Endereço" placeholder="Endereço" required><br/><br/>
+		    	</div>
+		    	
+					<select id='Estado' required>
+						    <option value="">Selecione seu estado</option>
+						    <option value="AC">Acre</option>
+						    <option value="AL">Alagoas</option>
+						    <option value="AP">Amapá</option>
+						    <option value="AM">Amazonas</option>
+						    <option value="BA">Bahia</option>
+						    <option value="CE">Ceará</option>
+						    <option value="DF">Distrito Federal</option>
+						    <option value="ES">Espirito Santo</option>
+						    <option value="GO">Goiás</option>
+						    <option value="MA">Maranhão</option>
+						    <option value="MS">Mato Grosso do Sul</option>
+						    <option value="MT">Mato Grosso</option>
+						    <option value="MG">Minas Gerais</option>
+						    <option value="PA">Pará</option>
+						    <option value="PB">Paraíba</option>
+						    <option value="PR">Paraná</option>
+						    <option value="PE">Pernambuco</option>
+						    <option value="PI">Piauí</option>
+						    <option value="RJ">Rio de Janeiro</option>
+						    <option value="RN">Rio Grande do Norte</option>
+						    <option value="RS">Rio Grande do Sul</option>
+						    <option value="RO">Rondônia</option>
+						    <option value="RR">Roraima</option>
+						    <option value="SC">Santa Catarina</option>
+						    <option value="SP">São Paulo</option>
+						    <option value="SE">Sergipe</option>
+						    <option value="TO">Tocantins</option>
+					</select>
+		        	<br/>
+		       
+		       <!--<select id="exampleSelect" class="form-control">
+					<option type ="text" value="">Escolha uma opção</option>
+					<option type = "text"value="">PE</option>
+			    </select>-->
+			    <div>
+		        	<input type="password" name="Senha" placeholder="Senha" required><br/><br/>
+		        </div>
+		       
+		       <div>
+		        	<input type="password" name="Confirmar Senha" placeholder="Confirmar Senha" required><br/><br/>
+		       </div>
+
+		        <div id='checkbox'>
+		        	<input type="checkbox" id="checkbox-1">
+					<label for="checkbox-1">Perfil Normal</label><br/>
+					<input type="checkbox" id="checkbox-2">
+					<label for="checkbox-1">Perfil Artesão</label>
+		        </div><br/>
+		           <button class="button">Cadastrar</button><br/> 
+		           <button class="cancelar">Cancelar</button><br/>
+			</form>
+	
+           
+    </div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+.divisao{
+margin: auto;
+padding: 90px 190px;
+border-color: blue;
+}
+.cadastro{
+	font-family: Arial;
+	color: black;
+	padding: 0 40%;
+	position: fixed;
+
+}
+input[type=text], [type=tel], [type=password], [type=email]{
+  width: 20%;
+  padding: 12px 20px;
+  margin: 9px 1px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 90px;
+  box-sizing: border-box;
+  position: top;
+}
+#form1{
+	width: 115%;
+	padding: 10% 20%;
+	position: absolute;
+	top:-7%;
+}
+
+#Estado{
+ width: 20%;
+  padding: 12px 20px;
+  margin: 9px 1px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 90px;
+  box-sizing: border-box;
+  position: top;
+}
+
+#checkbox{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #90be6d;
+}
+.button{
+  background-color: #90be6d;
+  border-radius: 20px;
+  color: white;
+  font-family: Arial;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+ }
+ .cancelar{
+  background-color: #90be6d;
+  border-radius: 20px;
+  color: white;
+  font-family: Arial;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+ }
