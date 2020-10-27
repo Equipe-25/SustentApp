@@ -1,13 +1,28 @@
+body{
+  margin: 50px;
+  padding:16px;
+  color: #b7e4c7;
+  padding-bottom: 120px;
+}
+
 .divisao{
 margin: auto;
-padding: 90px 190px;
+padding: 90px 195px;
 border-color: blue;
 }
+
 .cadastro{
-	font-family: Arial;
-	color: black;
-	padding: 0 40%;
-	position: fixed;
+  margin: 9px 1px;
+  font-size: 48px;
+  color: #066a75;
+  font-family: Arial,sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 30px;
+  position: absolute;
+  left: 44px;
+  top:12px;
+  
 
 }
 input[type=text], [type=tel], [type=password], [type=email]{
@@ -24,7 +39,7 @@ input[type=text], [type=tel], [type=password], [type=email]{
 	width: 115%;
 	padding: 10% 20%;
 	position: absolute;
-	top:-7%;
+	top:-4%;
 }
 
 #Estado{
@@ -43,24 +58,33 @@ input[type=text], [type=tel], [type=password], [type=email]{
 	color: #90be6d;
 }
 .button{
-  background-color: #90be6d;
+  background-color: #dbfeb8;
   border-radius: 20px;
-  color: white;
   font-family: Arial;
-  padding: 10px 20px;
+  color: black;
+  padding: 12px 20px;
   text-align: center;
   font-size: 13px;
   margin: 4px 2px;
   cursor: pointer;
  }
+  
  .cancelar{
-  background-color: #90be6d;
+  background-color: #dbfeb8;
   border-radius: 20px;
-  color: white;
+  color: black;
   font-family: Arial;
-  padding: 10px 20px;
+  padding: 12px 22px;
   text-align: center;
   font-size: 13px;
   margin: 4px 2px;
   cursor: pointer;
+
+}
+
+ /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 578px) {
+     body{background: #b7e4c7;}
+     .cadastro{left: 30%; top: 1%; width: 45%; height: 30%}
+    
  }
