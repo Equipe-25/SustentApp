@@ -84,7 +84,7 @@ input[type=text], [type=tel], [type=password], [type=email]{
 
  /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 578px) {
-     body{background: #b7e4c7;}
+     body{background: #edf6f9;}
      .cadastro{left: 30%; top: 1%; width: 45%; height: 30%}
     
  }
