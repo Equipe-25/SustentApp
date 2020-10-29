@@ -10,8 +10,8 @@
 
 <div class = "divisao">
 	<form id='form1'> 
-
-		<input type="text" name="Nome completo" placeholder="Nome completo" required><br/><br/>
+		<!--Momento em que é inserido os inputs/campos -->
+		<input type="text" name="Nome completo" placeholder="Nome completo" required><br><br>
         <input type="email" name="E-mail" placeholder="Insira um email válido" required><br/><br/>
         <input type="tel"  name="Telefone" class="form-control phone-ddd-mask" placeholder="Telefone"><br/>
         <input type="text" name="Cep" placeholder="CEP" class="form-control cpf-mask"><br/><br/>
@@ -51,11 +51,7 @@
 				    <option value="TO">Tocantins</option>
 			</select>
         	<br/>
-       
-       <!--<select id="exampleSelect" class="form-control">
-			<option type ="text" value="">Escolha uma opção</option>
-			<option type = "text"value="">PE</option>
-	    </select>-->
+   
 	    <div>
         	<input type="password" name="Senha" placeholder="Senha" required><br/><br/>
         </div>
@@ -65,36 +61,11 @@
        </div>
 
 
-<!-- tentativa de deixar apenas dos checkbox selecionado-->
-       	<div>
-       		<span id='naoInvalido'><span/>
-       	</div>
-
-<script type="text/javascript">
-	function myfun(){
-		var chec = document.getElementsByName('checkbox-1');
-		var checar = 0;
-		var count; 
-
-		for(count = 0; count <chec.lenght ; count++){
-			if(chec[count].checked == true){
-				checar = checar + 1;
-			}
-		}
-	
-
-	if(checar > 1){
-		document.getElementsById('naoInvalido').innerHTML = "Favor Selecionar uma das opções"
-		return false;
-	}
-}
-
-</script>
-
+		<!-- Momento em que é configurado os campos radio-->
         <div id='checkbox'>
-        	<input type="checkbox" id="checkbox-1" name = "checkbox-1" onclick="return myfun()">
+        	<input type="radio" id="checkbox-1" name = "checkbox-1" onclick="return check()">
 			<label for="checkbox-1">Perfil Normal</label><br/>
-			<input type="checkbox" id="checkbox-2" onclick="selectOreturn myfun()">
+			<input type="radio" id="checkbox-2" name = "checkbox-1" onclick="return check()">
 			<label for="checkbox-1">Perfil Artesão</label>
         </div><br/>
            <button class="button">Cadastrar</button><br/>
