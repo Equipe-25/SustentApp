@@ -1,0 +1,30 @@
+body{margin: 50px;
+        padding:16px;
+        color: #b7e4c7;
+        padding-bottom: 120px;} 
+
+    #borda{border:2px solid rgb(202, 18, 18);width: 70%;}  
+
+    h1{color: #066a75;
+        margin: 9px 1px;
+    font-size: 48px;
+    color: #066a75;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+    position: absolute;
+    left: 44px;
+    top:12px;
+    
+    }
+    h2{text-align:center;}
+
+    .conteudo{padding: 20px;
+        margin-left: 250px;}
+
+        h1{margin-left: 115px;}
+        
+        h3{padding-left:25px;}
+
+        .conteudo{margin: auto;}
