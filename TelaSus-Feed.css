@@ -19,7 +19,9 @@
 		  display: inline-block;
 		  cursor: pointer;
 		  margin: 15px 30px;
-		  padding-bottom: 20px 300px
+		  padding-bottom: 20px 300px;
+		  position: relative;
+
 		}
 
 		.bar1, .bar2, .bar3 {
@@ -34,6 +36,18 @@
 		#inputpesq{
 			margin-left: 200px;
 			width: 290%;
+		}
+
+		.lupa{
+			width: 40px;
+			height:30px;
+			padding: 5px 10px; 
+			margin-left: 920px;
+			position:absolute;
+			top:100px;
+
+			cursor:pointer;
+
 		}
 		#campoText{
 			    border-radius: 90px;
