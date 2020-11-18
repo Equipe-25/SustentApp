@@ -1,0 +1,141 @@
+ *{			
+	padding: 0
+	margin:0;
+  	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+body {
+ 	font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+	list-style: none;
+}
+		
+/* Definir o estilo do cabeçalho */
+header{
+	background-color: #a7c957;
+	padding: 9px;
+	text-align: center;
+	font-size: 16px;
+	color: white;
+}
+
+a{	
+	width: 100%;
+	display: block;
+	padding: 20px 5px;
+	color: white;
+	
+}
+
+a:hover{
+	background-color: rgb(176, 224, 230);
+	color: black;
+}
+
+#check{
+	display: none;
+}
+
+#icone{
+	cursor: pointer;
+	padding: 15px;
+	position: absolute;
+	z-index: 1;
+	top: 21px;
+}
+
+#dicas{
+	cursor: pointer;
+	position: absolute;
+	left: 8px;
+	top: 20px;
+}
+
+#configu{
+	cursor: pointer;
+	position: absolute;
+	left: 8px;
+	top: 75px;
+}
+
+#atendi{
+	cursor: pointer;
+	position: absolute;
+	left: 8px;
+	top: 130px;
+}
+
+#sobre{
+	cursor: pointer;
+	position: absolute;
+	left: 8px;
+	top: 190px;
+}
+
+#voltar{
+	color: rgb(176, 224, 230);
+	cursor: pointer;
+	position: absolute;
+	left: 250px;
+	top: 21px;
+}
+
+#barra{
+	background-color: #9F8D9F; /*COR DA PARTE DE CIMA QUE ENGLOBA O BOTÃO TRêS LINHAS*/
+	height: 68%;
+	top: 10px;
+	width:300px;
+	position: absolute;
+	transition: all .2s linear;
+	left: 0px;
+}
+
+.nave{
+	width: 100%;
+	position: relative;
+	left: 0px;
+	top: 80px;
+	flex-direction: column; /*QUEBROU OS 'BOTÕES' DEIXANDO UM ABAIXO DO OUTRO*/
+}
+
+#inputpesq{
+	margin-left: 200px;
+	width: 290%;
+}
+
+.lupa{
+	width: 40px;
+	height:30px;
+	padding: 5px 10px; 
+	margin-left: 810px;
+	position:absolute;
+	top:90px;
+
+	cursor:pointer;
+}
+
+#campoText{
+    border-radius: 90px;
+  	border: 1px solid #ccc;
+ 	width: 15%;
+ 	padding: 12px 40px;
+	margin: 9px 180px;
+	display: flex;
+	margin-top: -10px;
+}
+
+		/* Definir o estilo do rodapé */
+footer {
+	background-color: #D7D1D1;
+	margin-top: 800px;
+	padding: 50px;
+	text-align: left;
+	color: white;
+}
