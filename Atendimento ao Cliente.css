@@ -1,0 +1,104 @@
+*{			
+    padding: 0%;
+    margin: 0%;
+   
+      box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #a7c957;
+  padding: 9px;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+ 
+}
+
+#check{
+    display: none;
+}
+
+#icone{
+    cursor: pointer;
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+    top: 21px;
+
+    
+}
+
+#fale{
+border-color: #f2f2f2;
+padding-left: 45%;
+padding-top: 0%;
+padding-bottom:0%;
+padding-right: 35%;
+position: absolute;
+padding-top: 2%;
+color: rgb(253, 253, 253);
+
+background-color: rgb(209, 209, 209);
+
+}
+
+#obs{
+padding-left: 45%;
+padding-top:0% ;
+padding-bottom:0% ;
+padding-right: 35%;
+position: absolute;
+
+
+}
+
+
+#texto{
+padding: 0%;
+padding-left: 10%;
+padding-right: 10%;
+margin-left: 30%;
+padding-top: 20%;
+border-color: black;
+}
+
+#botão{
+
+position: relative;
+left: 30%;
+background-origin: padding-box;
+border-color: #f2f2f2;
+
+}
+
+
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  /* only for demonstration, should be removed */
+  /*background: #ccc;*/ /*COR DA PARTE TRASEIRAQUE ENGLOBA TODOS OS BOTÕES*/
+  padding: 0 20px;
+  display: flex;
+}
+
+/* Style the footer */
+footer {
+  background-color: #D7D1D1;
+  margin-top: 800px;
+  padding: 50px;
+  text-align: left;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto; }}
