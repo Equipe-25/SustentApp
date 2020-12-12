@@ -2,13 +2,14 @@
 			padding: 0
 			margin:0;
 		  	box-sizing: border-box;
-		}
+		  /*user-select: none;*/
+		  			}
 
 		body {
 		  font-family: Arial, Helvetica, sans-serif;
 		}
 
-		/* Style the header */
+		/* header */
 		header {
 		  background-color: #a7c957;
 		  padding: 9px;
@@ -33,7 +34,7 @@
 
 		.barra{
 			background-color: #9F9F9F; /*COR DA PARTE DE CIMA QUE ENGLOBA O BOTÃO TRêS LINHAS*/
-			height: 68%;
+			height: 140%;
 			top: 10px;
 			width:300px;
 			position: absolute;
@@ -52,11 +53,11 @@
 		}
 
 		.nave a {
-			text-decoration: none;
-
+		text-decoration: none;
+			
 		}
-		
-		.link{
+
+			.link{
 			background-color: #a7c957;/*COR DO BOTÃO*/
 			padding: 20px;
 			font-family: arial;
@@ -68,10 +69,17 @@
 			margin-top: 50px;
 
 
+
+
 		}
 
 		.link:hover{
 			background-color: pink;
+
+		}
+
+		.link_incluso{
+					  list-style-type: none;
 
 		}
 
@@ -100,6 +108,8 @@
 			cursor:pointer;
 
 		}
+
+		
 		#campoText{
 			    border-radius: 90px;
 			  	border: 1px solid #ccc;
@@ -108,31 +118,116 @@
 		  		margin: 9px 180px;
 		  		display: flex;
 		  		margin-top: -10px;
+		}
+		article{
+			text-align: center;
+		}
+
+
+		/* tratando  imagem do usuário no feed*/
+		.article_User{
+		 	margin-top: -28px;
+		 	margin-left: -270px;
+		 	border-radius: 50%;
+		 	max-height: 40px;
+		 	max-width: 40px;
 
 		}
+
+		/* tratando  o link do nome do usuário no feed*/
+		.article_User_name{
+			margin-top: 30px;
+			margin-left: 12px;
+			text-decoration:none;
+			color: black;
+		}
+		.article_User_name:hover{
+			color: #a7c957;
+
+		}
+
+		/* tratando  as postagem do usuário no feed | div que engloba a publicação*/
+		.gallery {
+			  margin: 10% 0 0 32%;
+			  border: 1px solid #ccc;
+			  float: center;
+			  width: 40%;
+			  height: 60%;
+			  text-align: center;
+			  border-radius: 0px;
+			  padding-top: 40px;
+
+			  }
+
+		div.gallery:hover {
+  			border: 2px solid #a7c957;
+  			cursor: auto;
+
+			}
+
+		 /* tratando  as postagem do usuário no feed | tratando o tamanho da imagem na div da publicação*/
+		div.gallery img {
+			  width: 40%;
+			  height: 30%;
+			}
+
+		/* tratando  as postagem do usuário no feed | a escrita dentro da div da publicação*/
+		div.desc {
+			  padding: 15px;
+			  text-align: center;
+			}
 
 		/* Create two columns/boxes that floats next to each other */
 		nav {
 		  float: left;
 		  width: 30%;
-		  /* only for demonstration, should be removed */
 		  /*background: #ccc;*/ /*COR DA PARTE TRASEIRAQUE ENGLOBA TODOS OS BOTÕES*/
 		  padding: 0 20px;
 		  display: flex;
 		}
 
-		/* Style the footer */
+		/* rodapé */
 		footer {
 		  background-color: #D7D1D1;
-		  margin-top: 800px;
+		  margin-top:100px;
 		  padding: 50px;
 		  text-align: left;
 		  color: white;
+		  text-decoration: none;
 		}
 
-		/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+		
+		.footer_inicio{
+			padding-left: -1%;
+			height: 220px;
+			width: 120px;
+		}
+
+		.footer_suporte{
+			padding-left: -1%;
+			height: 87px;
+		}
+
+		.footer_img{
+				right: -80px;
+		}
+
+		@media only screen and (max-width: 700px) {
+		  body, section, nav, article  {
+		    width: 49.99999%;
+		    margin: 6px 0;
+		  }
+		}
+
+		@media only screen and (max-width: 500px) {
+		  body,section, nav, article  {
+		    width: 100%;
+		  }
+		}
+
+
 		@media (max-width: 600px) {
-		  nav, article {
+		  body,section,   nav, article {
 		    width: 100%;
 		    height: auto;
 
