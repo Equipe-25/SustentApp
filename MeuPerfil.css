@@ -1,0 +1,172 @@
+* {			
+			padding: 0
+			margin:0;
+		  	box-sizing: border-box;
+		}
+
+		body {
+		  font-family: Arial, Helvetica, sans-serif;
+		}
+
+		/* Style the header */
+		header {
+		  background-color: #a7c957;
+		  padding: 9px;
+		  text-align: center;
+		  font-size: 16px;
+		  color: white;
+		 
+		}
+
+		#check{
+			display: none;
+		}
+
+		#icone{
+			cursor: pointer;
+			padding: 15px;
+			position: absolute;
+			z-index: 1;
+			top: 21px;
+			
+		}
+
+		.barra{
+			background-color: #9F9F9F; /*COR DA PARTE DE CIMA QUE ENGLOBA O BOTÃO TRêS LINHAS*/
+			height: 80%;
+			top: 10px;
+			width:300px;
+			position: absolute;
+			transition: all .2s linear;
+			left: -300px;
+			
+
+
+		}
+		.nave{
+			width: 100%;
+			position: relative;
+			top: 80px;
+			flex-direction: column; /*QUEBROU OS 'BOTÕES' DEIXANDO UM ABAIXO DO OUTRO*/
+
+		}
+
+		.nave a {
+			text-decoration: none;
+
+			
+		}
+		
+		.link{
+			background-color: #a7c957;/*COR DO BOTÃO*/
+			padding: 20px;
+			font-family: arial;
+			font-size: 12pt;
+			transition:all .2s linear;
+			color: #f4f4f9; /*COR DA FONTE*/
+			border-bottom: 23px solid #9F9F9F; /*COR DO ESPAÇAMENTO DO BOTÃO/LINK */
+			opacity: 0;
+			margin-top: 50px;
+
+
+
+		}
+
+		.link:hover{
+			background-color: pink;
+
+		}
+
+		#check:checked ~ .barra{
+			transform: translateX(300px);
+		}
+		#check:checked ~ .barra .nave a .link{
+			opacity: 1;
+			margin-top: 0;
+			transition-delay: .2px;
+		}
+
+		
+		article{
+			margin-top: 60px;
+			/*text-align: center;*/
+
+		}
+
+		.gallery {
+			  margin: 10px;
+			  border: 1px solid #ccc;
+			  float: left;
+			  width: 20%;
+			  height: 20%;
+			  text-align: center;
+			  
+			  }
+
+		.gallery a{
+			cursor: pointer;
+		}
+
+		div.gallery:hover {
+  			border: 2px solid #a7c957;
+  			padding-left: 10px;
+
+			}
+
+		div.gallery img {
+			  width: 60%;
+			  height: 50%;
+			}
+
+
+		 .article_User{
+		 	/*margin-top: 60px;*/
+		 	margin-left: 110px;
+		 	width: 120px;
+		 	height: 120px;
+		 	border-radius: 50%;
+
+
+		}
+		.article_1{
+			margin-left: 320px;
+			width: 300px;
+			margin-top:-150px;
+			line-height: 12px;
+
+			
+		}
+		.article_Nome_User{
+			font-size: 25pt;
+			color:#007F5F;
+
+			font-family: new roman;
+
+		}
+
+		#article_linha-vertical1{
+			
+			height:60px;
+			width: 100%;
+			left: 7px;
+			top: 280px;
+			border:1px solid #007F5F;
+			
+		}
+
+		.article_linha-vertica_1_Minhas_Publicações{
+			right: 50%;
+			text-align: center;
+			color: #007F5F;
+		}
+		/* Create two columns/boxes that floats next to each other */
+		nav {
+		  float: left;
+		  width: 30%;
+		  /* only for demonstration, should be removed */
+		  /*background: #ccc;*/ /*COR DA PARTE TRASEIRAQUE ENGLOBA TODOS OS BOTÕES*/
+		  padding: 0 20px;
+		  display: flex;
+		}
+
+		
