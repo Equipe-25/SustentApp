@@ -1,0 +1,45 @@
+*{
+
+
+}
+
+.header{
+	margin-top: 0px;
+	text-align: center;
+	background-color: #a7c957;
+	color: white;
+}
+
+.inputs{
+	margin: 12px;
+
+}
+
+.corpo{
+		margin: 10% 0 0 32%;
+		border: 1px solid #ccc;
+		width: 50%;
+		height: 90%;
+		border-radius: 0px;
+	    padding-top: 20px;
+
+	}
+
+.corpo:hover {
+  		border: 2px solid #a7c957;
+  		cursor: auto;
+
+}
+
+.botoes{
+	  background-color: #dbfeb8;
+	  border: 0px #dbfeb8;
+	  font-family: Arial;
+	  color: black;
+	  padding: 12px 20px;
+	  text-align: center;
+	  font-size: 13px;
+	  margin: 4px 2px;
+	  cursor: pointer;
+}
+

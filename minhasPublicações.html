@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="MinhasPublicaçoes.css">
+	<title>Minha Publicação | Sustentapp</title>
+	<meta charset="utf-8">
+</head>
+
+<body class="corpo">
+
+
+	<header class="header">
+	  <h2>Minha Publicação</h2>
+	</header>
+
+
+	<div class="inputs">
+		<input type="text" name="Nome do Produto" placeholder="Nome do Produto">
+	</div>
+	<div class="inputs">
+		<input type="textarea" name="Material Utilizado" placeholder="Material Utilizado">
+	</div>
+		<label style ="margin-left: 12px;">Descrição</label>
+		<div class="inputs">
+		<textarea id="story" 
+          rows="5" cols="33" placeholder="Digite aqui..">
+		</textarea>
+
+	</div>
+
+		<button class="botoes" href="file:///C:/Users/maria.s.holanda/Documents/HTML/TelaSus-Feed.html">Publicar</button>
+		<button class="botoes" target="sair" onclick="chamarLink()">Cancelar</button><br/>
+       		<script type="text/javascript">
+       			function chamarLink() {
+				   window.history.back();
+}
+       	   </script>
+	
+
+</body>
+</html>
