@@ -31,11 +31,13 @@ a{
 	display: block;
 	padding: 20px 5px;
 	color: white;
+	background-color: #a7c957;
+	border-bottom: 23px solid #9F9F9F; /*COR DO ESPAÇAMENTO DO BOTÃO/LINK */
 	
 }
 
 a:hover{
-	background-color: rgb(176, 224, 230);
+	background-color: pink;
 	color: black;
 }
 
@@ -62,21 +64,21 @@ a:hover{
 	cursor: pointer;
 	position: absolute;
 	left: 8px;
-	top: 75px;
+	top: 102px;
 }
 
 #atendi{
 	cursor: pointer;
 	position: absolute;
 	left: 8px;
-	top: 130px;
+	top: 180px;
 }
 
 #sobre{
 	cursor: pointer;
 	position: absolute;
 	left: 8px;
-	top: 190px;
+	top: 260px;
 }
 
 #voltar{
@@ -88,8 +90,8 @@ a:hover{
 }
 
 #barra{
-	background-color: #9F8D9F; /*COR DA PARTE DE CIMA QUE ENGLOBA O BOTÃO TRêS LINHAS*/
-	height: 68%;
+	background-color: #9F9F9F; /*COR DA PARTE DE CIMA QUE ENGLOBA O BOTÃO TRêS LINHAS*/
+	height: 90%;
 	top: 10px;
 	width:300px;
 	position: absolute;
@@ -133,9 +135,26 @@ a:hover{
 
 		/* Definir o estilo do rodapé */
 footer {
-	background-color: #D7D1D1;
-	margin-top: 800px;
-	padding: 50px;
-	text-align: left;
-	color: white;
-}
+      background-color: #D7D1D1;
+      margin-top:990px;
+      padding: 50px;
+      text-align: left;
+      color: white;
+      text-decoration: none;
+    }
+
+    
+    .footer_inicio{
+      padding-left: -1%;
+      height: 290px;
+      width: 120px;
+    }
+
+    .footer_suporte{
+      padding-left: -1%;
+      height: 87px;
+    }
+
+    .footer_img{
+        right: -80px;
+    }
