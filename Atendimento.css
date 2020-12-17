@@ -1,10 +1,9 @@
-*{			
-    padding: 0%;
-    margin: 0%;
-   
-      box-sizing: border-box;
-}
-
+* {     
+      padding: 0
+      margin:0;
+        box-sizing: border-box;
+      /*user-select: none;*/
+            }
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -15,16 +14,15 @@ body {
   ;
 }
 
-/* Style the header */
-header {
-  background-color: #a7c957;
-  padding: 9px;
-  text-align: center;
-  font-size: 16px;
-  color: white;
- 
-}
-
+/* header */
+    header {
+      background-color: #a7c957;
+      padding: 9px;
+      text-align: center;
+      font-size: 16px;
+      color: white;
+     
+    }
 #check{
     display: none;
 }
@@ -40,19 +38,31 @@ header {
 }
 
 #inputpesq{
-			margin-left: 200px;
-			width: 290%;}
+  margin-left: 296px;
+  width: 240%;
+}
+
+.lupa{
+  width: 40px;
+  height:30px;
+  padding: 5px 10px; 
+  margin-left: 900px;
+  position:absolute;
+  top:90px;
+
+  cursor:pointer;
+}
 
 #campoText{
-			    border-radius: 90px;
+          border-radius: 90px;
           border: 1px solid #ccc;
-			 	  width: 20%;
-		  	 	padding: 12px 40px;
-		  		margin: 9px 60px;
-		  		display: flex;
-		  		margin-top: -10px;
+          width: 20%;
+          padding: 12px 40px;
+          margin: 9px 60px;
+          display: flex;
+          margin-top: -10px;
 
-		}
+    }
 
 #fone{
   position: relative;
@@ -114,7 +124,6 @@ border-color: #f2f2f2;
 }
 
 
-
 /* Create two columns/boxes that floats next to each other */
 nav {
   float: left;
@@ -125,17 +134,43 @@ nav {
   display: flex;
 }
 
+#voltar{
+  background-color: #a7c957;
+  cursor: pointer;
+  position: absolute;
+  left: 95%;
+  top: 35px;
+}
 /* Style the footer */
 footer {
-  background-color: #D7D1D1;
-  margin-top: 800px;
-  padding: 50px;
-  text-align: left;
-  color: white;
-}
+      background-color: #D7D1D1;
+      margin-top:990px;
+      padding: 50px;
+      text-align: left;
+      color: white;
+      text-decoration: none;
+    }
+
+    
+    .footer_inicio{
+      padding-left: -1%;
+      height: 290px;
+      width: 120px;
+    }
+
+    .footer_suporte{
+      padding-left: -1%;
+      height: 87px;
+    }
+
+    .footer_img{
+        right: -80px;
+    }
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
   nav, article {
     width: 100%;
-    height: auto; }
+    height: auto; }}
+
+    
