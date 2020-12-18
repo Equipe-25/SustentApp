@@ -18,6 +18,14 @@
 		 
 		}
 
+		#voltar{
+		background-color: #a7c957;
+		cursor: pointer;
+		position: absolute;
+		left: 95%;
+		top: 35px;
+}
+
 		#check{
 			display: none;
 		}
