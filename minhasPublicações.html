@@ -28,12 +28,16 @@
 
 	</div>
 
-		<button class="botoes" href="file:///C:/Users/maria.s.holanda/Documents/HTML/TelaSus-Feed.html">Publicar</button>
+		<button class="botoes" onclick="callFeed()">Publicar</button>
 		<button class="botoes" target="sair" onclick="chamarLink()">Cancelar</button><br/>
        		<script type="text/javascript">
        			function chamarLink() {
 				   window.history.back();
 }
+
+				function callFeed(){
+					 window.location.href="file:///C:/Users/maria.s.holanda/Documents/HTML/TelaSus-Feed.html";
+				}
        	   </script>
 	
 
